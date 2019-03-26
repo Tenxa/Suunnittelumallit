@@ -12,10 +12,10 @@ import Clothes.*;
  * @author teemu
  */
 public class JasperJava {
-    private Hat hat;
-    private Jeans jeans;
-    private Shoes shoes;
-    private Tshirt tshirt;
+    private Clothing hat;
+    private Clothing jeans;
+    private Clothing shoes;
+    private Clothing tshirt;
     
     public void createOutfit(OutfitFactory factory){
         hat = factory.createHat();

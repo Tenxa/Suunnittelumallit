@@ -13,8 +13,8 @@ import Clothes.*;
  */
 public interface OutfitFactory {
     
-    public abstract Hat createHat();
-    public abstract Jeans createJeans();
-    public abstract Shoes createShoes();
-    public abstract Tshirt crateTshirt();
+    public abstract Clothing createHat();
+    public abstract Clothing createJeans();
+    public abstract Clothing createShoes();
+    public abstract Clothing crateTshirt();
 }

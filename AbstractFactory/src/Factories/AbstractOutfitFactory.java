@@ -14,7 +14,7 @@ import Clothes.Tshirt;
  *
  * @author teemu
  */
-public class AbstractOutfitFactory implements OutfitFactory {
+public abstract class AbstractOutfitFactory implements OutfitFactory {
     
     private String mBrand;
     
