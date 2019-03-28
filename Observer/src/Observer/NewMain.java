@@ -21,7 +21,7 @@ public class NewMain {
     public static void main(String[] args) throws IOException {
         // TODO code application logic here
         ClockTimer timer = new ClockTimer();
-        timer.addObserver(new DigitalClock(timer));
+        DigitalClock clock = new DigitalClock(timer);
         
         timer.run();
         

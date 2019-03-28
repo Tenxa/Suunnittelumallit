@@ -18,6 +18,7 @@ public class DigitalClock implements Observer{
 
     public DigitalClock(ClockTimer timer) {
         this.timer = timer;
+        timer.addObserver(this);
     }
 
     @Override
