@@ -11,10 +11,11 @@ package decorator;
  */
 public abstract class Decorator implements Pizza{
 
+    protected Pizza PizzaPohja;
+    
     public Decorator(Pizza PizzaPohja) {
         this.PizzaPohja = PizzaPohja;
     }
-    protected Pizza PizzaPohja;
     
     @Override
     public double getHinta() {
